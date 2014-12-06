@@ -7,5 +7,7 @@ h2 {
 	color: red;
 }
 
-
+body {
+	background-image: url ("Images/background.jpeg");
+}
 
