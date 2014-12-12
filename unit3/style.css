@@ -1,23 +1,16 @@
 body {
  	background: url("Images/stripes.png") repeat-x, url("Images/background.jpg") no-repeat #52596b;
  	background-size: auto, cover;
+ 	font-family: sans-serif;
+ 	font-size:20px;
+	color: white;
  }
 section {
-	margin: 200px 0 0 60px;
+	margin: 250px 0 0 100px;
 }
-.logo {
-}
-
 hr {
-	margin-top: 20px;
-	max-width: 60px;
+	margin: 20px 0 0 0;
+	width: 60px;
 	border-color: #FF5050;
-}
-
-p {
-	font-family: sans-serif;
-	color: white;
-}
-#btnstore {
 }
 
