@@ -1,54 +1,23 @@
- body
-
- {
- 	background-image: url("Images/background.jpg");
- 	background-size: 100%
+body {
+ 	background: url("Images/stripes.png") repeat-x, url("Images/background.jpg") no-repeat #52596b;
+ 	background-size: auto, cover;
  }
-
-div
-{
-background-image: url("Images/stripes.png");
-background-repeat: repeat-x;
+section {
+	margin: 200px 0 0 60px;
 }
-#logo
-{
-	padding-top: 200px;
-	padding-right: 537px;
-	padding-left: 60px;
+.logo {
 }
 
-#line
-{
-    margin-top: 20px;
-	margin-right: 537px;
-	margin-left: 60px;
-    max-height: 10px;
-    max-width: 60px;
-    border-color: #FF5050;
-
-
-}
-
-#text
-{
-    font-family: sans-serif;
-    padding-top: 10px;
-	padding-right: 537px;
-	padding-left: 60px;
-}
-
-#btnstore
-{
-	padding-top: 10px;
-	padding-right: 537px;
-	padding-left: 60px;
+hr {
+	margin-top: 20px;
+	max-width: 60px;
+	border-color: #FF5050;
 }
 
 p {
-	color: white
+	font-family: sans-serif;
+	color: white;
 }
-
-
-h2 {
-	color: red;
+#btnstore {
+}
 
