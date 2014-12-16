@@ -13,7 +13,10 @@ margin: 40px 0 0 95px;
 }
 nav {
 }
-ul { list-style:none; }
+ul { 
+  list-style:none;
+  padding:0;
+}
 li { margin:8px 0; }
 h1 {
 font-size: 2em;
