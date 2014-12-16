@@ -1,33 +1,28 @@
-h1 {
-font-size: 50px;
-margin: 30px 0 0 95px;
-color: white;
+body {
+background-image: url("images/pasta2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+color: #696969;
+font-size:24px;
 font-family: 'Didact Gothic', sans-serif;
-font-weight: normal
+font-weight: 500;
+line-height:1.20em;
 }
 section {
 margin: 40px 0 0 95px;
-color: #696969;
-font-family: 'Didact Gothic', sans-serif;
-font-weight: 500;
-font-style: regular;
-font-size: 24px;
-line-height: 30px;
+}
+nav {
+}
+ul { list-type:none; }
+h1 {
+font-size: 2em;
+margin: 30px 0 0 95px;
+color: white;
 }
 .boxed {
   border: 2px solid white;
   padding: 0px 5px 0 10px;
   margin: 8px 998px 8px 0px;
   text-align: center;
-}
-body {
-background-image: url("images/pasta2.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
-}
-.pasta2 {
-width: 600px;
-height: 300px;
-margin: 150px 0 0 400px;
 }
