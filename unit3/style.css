@@ -1,16 +1,54 @@
-body {
- 	background: url("Images/stripes.png") repeat-x, url("Images/background.jpg") no-repeat #52596b;
- 	background-size: auto, cover;
- 	font-family: sans-serif;
- 	font-size:20px;
-	color: white;
+ body
+
+ {
+ 	background-image: url("Images/background.jpg");
+ 	background-size: 100%
  }
-section {
-	margin: 250px 0 0 100px;
+
+div
+{
+background-image: url("Images/stripes.png");
+background-repeat: repeat-x;
 }
-hr {
-	margin: 20px 0 0 0;
-	width: 60px;
-	border-color: #FF5050;
+#logo
+{
+	padding-top: 200px;
+	padding-right: 537px;
+	padding-left: 60px;
 }
+
+#line
+{
+    margin-top: 20px;
+	margin-right: 537px;
+	margin-left: 60px;
+    max-height: 10px;
+    max-width: 60px;
+    border-color: #FF5050;
+
+
+}
+
+#text
+{
+    font-family: sans-serif;
+    padding-top: 10px;
+	padding-right: 537px;
+	padding-left: 60px;
+}
+
+#btnstore
+{
+	padding-top: 10px;
+	padding-right: 537px;
+	padding-left: 60px;
+}
+
+p {
+	color: white
+}
+
+
+h2 {
+	color: red;
 
