@@ -1,7 +1,69 @@
+body {
+	font-family: 'Didact Gothic', sans-serif;
+}
 nav {
 	background-color: #aaaaaa;
 	height: 90px;
 }
+ul {
+	float:right;
+}
+li {
+	list-style: none;
+	text-decoration: none;
+	padding: 10px 5px 19px 5px;
+	margin: 0px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+}
+
+img.banner {
+	display: block;
+	margin:0 auto;
+}
+
+div.ranges {
+	margin:0 auto;
+}
+
+h1 {
+	font-size: 2em;
+	padding-top: 10px;
+	margin: 10px 0 0 35px;
+	color: white;
+}
+footer {
+	clear: both;
+	background-color: #aaaaaa;
+	margin-top: 100px;
+	height: 50px;
+	width: auto;
+}
+.ranges {
+	width:960px;
+}
+.ranges div {
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	color: #222;
+	background-color: #ffffff;
+	width: 33.33%;
+	padding: 20px 0 0px 0;
+}
+#fifty {
+}
+
+#onehundred {
+}
+
+#twohundred {
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -9,91 +71,4 @@ nav {
 	clear: both;
 	height: 0;
 	font-size: 0;
-	}
-
-body {
-font-family: 'Didact Gothic', sans-serif;
-}
-
-li {
-    list-style: none;
-	text-decoration: none;
-	float: right;
-	padding: 10px 5px 19px 5px;
-	margin: 0px;
-}
-
-a:link {
-	text-decoration: none;
-	color: #ffffff;
-	display: block;
-
-}
-
-img.banner {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.ranges {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1 {
-font-size: 2em;
-padding-top: 10px;
-margin: 10px 0 0 35px;
-color: white;
-}
-
-#fifty {
-	float: left;
-	font-size: 14px;
-	text-align: center;
-	color: #000000;
-	background-color: #ffffff;
-	width: 280px;
-	padding: 20px 0 0px 0;
-	margin: 0 20px 0 160px; 
-	border-style: solid;
-	border-width: 2px;
-}
-
-#onehundred {
-	float: left;
-	font-size: 14px;
-	text-align: center;
-	color: #000000;
-	background-color: #ffffff;
-	width: 280px;
-	padding: 20px 0 0px 0;
-	margin: 0 20px 0 30px; 
-	border-style: solid;
-	border-width: 2px;
-}
-
-#twohundred {
-	float: left;
-	font-size: 14px;
-	text-align: center;
-	color: #000000;
-	background-color: #ffffff;
-	width: 280px;
-	padding: 20px 0 0 0px;
-	margin: 0 20px 0 30px; 
-	border-style: solid;
-	border-width: 2px;
-}
-
-footer {
-	clear: both;
-	background-color: #aaaaaa;
-	margin-top: 100px;
-	height: 50px;
-    width: auto;
-
-
 }
