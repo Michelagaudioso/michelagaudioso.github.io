@@ -9,6 +9,7 @@ ul {
 	float:right;
 }
 li {
+	float:left;
 	list-style: none;
 	text-decoration: none;
 	padding: 10px 5px 19px 5px;
@@ -16,6 +17,7 @@ li {
 }
 
 nav a {
+	float:left;
 	text-decoration: none;
 	color: #ffffff;
 	display: block;
