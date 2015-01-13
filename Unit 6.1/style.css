@@ -23,6 +23,9 @@ nav a {
 	color: #ffffff;
 	display: block;
 }
+nav a:first-child {
+	font-size:4em;
+}
 
 .banner {
 	display: block;
@@ -45,6 +48,10 @@ footer {
 	margin-top: 100px;
 	height: 50px;
 	width: auto;
+}
+footer a {
+	color:#fff;
+	text-decoration:none;
 }
 div.ranges {
 	margin:0 auto;
