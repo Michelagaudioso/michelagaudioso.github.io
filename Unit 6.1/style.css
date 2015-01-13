@@ -24,13 +24,13 @@ nav a {
 	display: block;
 }
 
-img.banner {
+.banner {
 	display: block;
 	margin:0 auto;
+	max-width:1200px;
 }
-
-div.ranges {
-	margin:0 auto;
+.banner img {
+	width:100%;
 }
 
 h1 {
@@ -46,8 +46,9 @@ footer {
 	height: 50px;
 	width: auto;
 }
-.ranges {
-	width:960px;
+div.ranges {
+	margin:0 auto;
+	max-width:1200px;
 }
 .ranges div {
 	float: left;
@@ -58,13 +59,8 @@ footer {
 	width: 33.33%;
 	padding: 20px 0 0px 0;
 }
-#fifty {
-}
-
-#onehundred {
-}
-
-#twohundred {
+.ranges img {
+	width:100%;
 }
 
 .clearfix:after {
